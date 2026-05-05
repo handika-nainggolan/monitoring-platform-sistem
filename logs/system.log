@@ -1,0 +1,174 @@
+Wed Apr 22 14:59:30 +07 2026 - INFO: nginx running
+Wed Apr 22 14:59:30 +07 2026 - INFO: docker running
+ 14:59:30 up 6 min,  1 user,  load average: 0.06, 0.19, 0.13
+Wed Apr 22 14:59:30 +07 2026 - INFO: nginx running
+Wed Apr 22 14:59:30 +07 2026 - INFO: docker running
+ 14:59:30 up 6 min,  1 user,  load average: 0.06, 0.19, 0.13
+               total        used        free      shared  buff/cache   available
+Mem:           3.7Gi       702Mi       282Mi       3.6Mi       2.9Gi       3.1Gi
+Swap:          1.0Gi          0B       1.0Gi
+Wed Apr 22 15:01:49 +07 2026 - ERROR: nginx is down! Restarting...
+Wed Apr 22 15:01:49 +07 2026 - INFO: docker running
+ 15:01:49 up 9 min,  1 user,  load average: 0.07, 0.13, 0.11
+Wed Apr 22 15:01:49 +07 2026 - INFO: nginx running
+Wed Apr 22 15:01:49 +07 2026 - INFO: docker running
+ 15:01:49 up 9 min,  1 user,  load average: 0.07, 0.13, 0.11
+               total        used        free      shared  buff/cache   available
+Mem:           3.7Gi       715Mi       267Mi       3.6Mi       2.9Gi       3.0Gi
+Swap:          1.0Gi          0B       1.0Gi
+Wed Apr 22 15:03:50 +07 2026 - INFO: nginx running
+Wed Apr 22 15:03:50 +07 2026 - INFO: docker running
+ 15:03:50 up 11 min,  1 user,  load average: 0.01, 0.08, 0.09
+Wed Apr 22 15:03:50 +07 2026 - INFO: nginx running
+Wed Apr 22 15:03:50 +07 2026 - INFO: docker running
+ 15:03:50 up 11 min,  1 user,  load average: 0.01, 0.08, 0.09
+               total        used        free      shared  buff/cache   available
+Mem:           3.7Gi       720Mi       262Mi       3.6Mi       2.9Gi       3.0Gi
+Swap:          1.0Gi          0B       1.0Gi
+Sun Apr 26 13:07:12 +07 2026 - INFO: nginx running
+Sun Apr 26 13:07:12 +07 2026 - INFO: docker running
+ 13:07:12 up 9 min,  1 user,  load average: 0.09, 0.08, 0.02
+Sun Apr 26 13:07:12 +07 2026 - INFO: nginx running
+Sun Apr 26 13:07:12 +07 2026 - INFO: docker running
+ 13:07:12 up 9 min,  1 user,  load average: 0.09, 0.08, 0.02
+               total        used        free      shared  buff/cache   available
+Mem:           3.7Gi       685Mi       1.9Gi       3.6Mi       1.4Gi       3.1Gi
+Swap:          1.0Gi          0B       1.0Gi
+Sun Apr 26 13:09:11 +07 2026 - ERROR: nginx is down! Restarting...
+Sun Apr 26 13:09:11 +07 2026 - INFO: docker running
+ 13:09:11 up 11 min,  1 user,  load average: 0.03, 0.06, 0.01
+Sun Apr 26 13:09:11 +07 2026 - INFO: nginx running
+Sun Apr 26 13:09:11 +07 2026 - INFO: docker running
+ 13:09:11 up 11 min,  1 user,  load average: 0.03, 0.06, 0.01
+               total        used        free      shared  buff/cache   available
+Mem:           3.7Gi       679Mi       2.8Gi       3.6Mi       431Mi       3.1Gi
+Swap:          1.0Gi          0B       1.0Gi
+Sun Apr 26 13:10:17 +07 2026 - ERROR: nginx is down! Restarting...
+Sun Apr 26 13:10:17 +07 2026 - INFO: docker running
+ 13:10:17 up 12 min,  1 user,  load average: 0.21, 0.10, 0.03
+Sun Apr 26 13:10:17 +07 2026 - INFO: nginx running
+Sun Apr 26 13:10:17 +07 2026 - INFO: docker running
+ 13:10:17 up 12 min,  1 user,  load average: 0.21, 0.10, 0.03
+               total        used        free      shared  buff/cache   available
+Mem:           3.7Gi       686Mi       2.8Gi       3.6Mi       432Mi       3.1Gi
+Swap:          1.0Gi          0B       1.0Gi
+Sun Apr 26 13:13:39 +07 2026 - INFO: nginx running
+Sun Apr 26 13:13:39 +07 2026 - INFO: docker running
+===== SYSTEM INFO =====
+ 13:13:39 up 15 min,  1 user,  load average: 0.08, 0.09, 0.03
+               total        used        free      shared  buff/cache   available
+Mem:           3.7Gi       689Mi       2.4Gi       3.6Mi       822Mi       3.1Gi
+Swap:          1.0Gi          0B       1.0Gi
+=======================
+Sun Apr 26 13:14:21 +07 2026 - INFO: nginx running
+Sun Apr 26 13:14:21 +07 2026 - INFO: docker running
+===== SYSTEM INFO =====
+ 13:14:21 up 16 min,  1 user,  load average: 0.04, 0.08, 0.03
+               total        used        free      shared  buff/cache   available
+Mem:           3.7Gi       683Mi       2.8Gi       3.6Mi       416Mi       3.1Gi
+Swap:          1.0Gi          0B       1.0Gi
+=======================
+Sun Apr 26 13:14:50 +07 2026 - ERROR: nginx is down! Restarting...
+Sun Apr 26 13:14:51 +07 2026 - INFO: docker running
+===== SYSTEM INFO =====
+ 13:14:51 up 16 min,  1 user,  load average: 0.02, 0.07, 0.02
+               total        used        free      shared  buff/cache   available
+Mem:           3.7Gi       683Mi       2.8Gi       3.6Mi       420Mi       3.1Gi
+Swap:          1.0Gi          0B       1.0Gi
+=======================
+Sun Apr 26 13:26:22 +07 2026 - ERROR: nginx is down! Restarting...
+Sun Apr 26 13:26:23 +07 2026 - INFO: docker running
+===== SYSTEM INFO =====
+ 13:26:23 up 28 min,  1 user,  load average: 0.08, 0.08, 0.02
+               total        used        free      shared  buff/cache   available
+Mem:           3.7Gi       702Mi       2.8Gi       3.6Mi       424Mi       3.1Gi
+Swap:          1.0Gi          0B       1.0Gi
+=======================
+Sun Apr 26 13:27:16 +07 2026 - ERROR: nginx is down! Restarting...
+Sun Apr 26 13:27:17 +07 2026 - INFO: docker running
+===== SYSTEM INFO =====
+ 13:27:17 up 29 min,  1 user,  load average: 0.03, 0.06, 0.01
+               total        used        free      shared  buff/cache   available
+Mem:           3.7Gi       716Mi       2.8Gi       3.6Mi       424Mi       3.0Gi
+Swap:          1.0Gi          0B       1.0Gi
+=======================
+Sun Apr 26 14:14:07 +07 2026 - INFO: nginx running
+Sun Apr 26 14:14:07 +07 2026 - INFO: docker running
+===== SYSTEM INFO =====
+ 14:14:07 up  1:15,  1 user,  load average: 0.24, 0.33, 0.15
+               total        used        free      shared  buff/cache   available
+Mem:           3.7Gi       698Mi       2.8Gi       3.6Mi       431Mi       3.1Gi
+Swap:          1.0Gi          0B       1.0Gi
+=======================
+Sun Apr 26 14:15:15 +07 2026 - ERROR: nginx is down! Restarting...
+Sun Apr 26 14:15:16 +07 2026 - INFO: docker running
+===== SYSTEM INFO =====
+ 14:15:16 up  1:16,  1 user,  load average: 0.07, 0.26, 0.13
+               total        used        free      shared  buff/cache   available
+Mem:           3.7Gi       711Mi       2.8Gi       3.6Mi       438Mi       3.0Gi
+Swap:          1.0Gi          0B       1.0Gi
+=======================
+Sun Apr 26 14:17:20 +07 2026 - ERROR: nginx is down! Restarting...
+Sun Apr 26 14:17:21 +07 2026 - INFO: docker running
+===== SYSTEM INFO =====
+ 14:17:21 up  1:18,  1 user,  load average: 0.08, 0.19, 0.12
+               total        used        free      shared  buff/cache   available
+Mem:           3.7Gi       695Mi       2.8Gi       3.6Mi       441Mi       3.1Gi
+Swap:          1.0Gi          0B       1.0Gi
+=======================
+Sun Apr 26 14:50:30 +07 2026 - INFO: nginx running
+Sun Apr 26 14:50:30 +07 2026 - INFO: docker running
+===== SYSTEM INFO =====
+ 14:50:30 up  1:50,  1 user,  load average: 0.05, 0.08, 0.07
+               total        used        free      shared  buff/cache   available
+Mem:           3.7Gi       741Mi       2.7Gi       3.6Mi       429Mi       3.0Gi
+Swap:          1.0Gi          0B       1.0Gi
+=======================
+Sun Apr 26 14:51:44 +07 2026 - ERROR: nginx is down! Restarting...
+Sun Apr 26 14:51:45 +07 2026 - INFO: docker running
+===== SYSTEM INFO =====
+ 14:51:45 up  1:51,  1 user,  load average: 0.25, 0.11, 0.08
+               total        used        free      shared  buff/cache   available
+Mem:           3.7Gi       786Mi       2.7Gi       3.6Mi       439Mi       3.0Gi
+Swap:          1.0Gi          0B       1.0Gi
+=======================
+Sun Apr 26 14:52:08 +07 2026 - ERROR: nginx is down! Restarting...
+Sun Apr 26 14:52:08 +07 2026 - INFO: docker running
+===== SYSTEM INFO =====
+ 14:52:08 up  1:52,  1 user,  load average: 0.17, 0.10, 0.08
+               total        used        free      shared  buff/cache   available
+Mem:           3.7Gi       786Mi       2.7Gi       3.6Mi       439Mi       3.0Gi
+Swap:          1.0Gi          0B       1.0Gi
+=======================
+Mon May  4 12:20:57 +07 2026 - ERROR: nginx is down! Restarting...
+Mon May  4 12:20:58 +07 2026 - INFO: docker running
+===== SYSTEM INFO =====
+ 12:20:58 up  2:52,  2 users,  load average: 0.16, 0.17, 0.18
+               total        used        free      shared  buff/cache   available
+Mem:           3.7Gi       1.9Gi       1.1Gi       4.6Mi       949Mi       1.8Gi
+Swap:          1.0Gi       1.8Mi       1.0Gi
+=======================
+Mon May  4 12:21:10 +07 2026 - INFO: nginx running
+Mon May  4 12:21:11 +07 2026 - INFO: docker running
+===== SYSTEM INFO =====
+ 12:21:11 up  2:53,  2 users,  load average: 0.22, 0.18, 0.18
+               total        used        free      shared  buff/cache   available
+Mem:           3.7Gi       1.9Gi       1.0Gi       4.6Mi       950Mi       1.8Gi
+Swap:          1.0Gi       1.8Mi       1.0Gi
+=======================
+Mon May  4 12:39:09 +07 2026 - ERROR: nginx is down! Restarting...
+Mon May  4 12:39:11 +07 2026 - INFO: docker running
+===== SYSTEM INFO =====
+ 12:39:11 up  3:11,  2 users,  load average: 0.22, 0.23, 0.25
+               total        used        free      shared  buff/cache   available
+Mem:           3.7Gi       1.9Gi       1.0Gi       4.6Mi       965Mi       1.8Gi
+Swap:          1.0Gi       1.8Mi       1.0Gi
+=======================
+Mon May  4 12:52:07 +07 2026 - ERROR: nginx is down! Restarting...
+Mon May  4 12:52:08 +07 2026 - INFO: docker running
+===== SYSTEM INFO =====
+ 12:52:08 up  3:24,  2 users,  load average: 0.05, 0.15, 0.21
+               total        used        free      shared  buff/cache   available
+Mem:           3.7Gi       2.2Gi       818Mi       4.6Mi       990Mi       1.6Gi
+Swap:          1.0Gi       1.8Mi       1.0Gi
+=======================

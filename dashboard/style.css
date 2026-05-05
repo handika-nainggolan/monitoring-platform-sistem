@@ -1,0 +1,50 @@
+body {
+    background: #0f172a;
+    color: white;
+    font-family: Arial;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #38bdf8;
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.card {
+    background: #1e293b;
+    padding: 20px;
+    margin: 15px 0;
+    border-radius: 12px;
+}
+
+#log {
+    background: black;
+    padding: 10px;
+    height: 300px;
+    overflow-y: scroll;
+    border-radius: 8px;
+    font-family: monospace;
+}
+
+/* warna log */
+.log-info {
+    color: #22c55e;
+}
+
+.log-error {
+    color: #ef4444;
+}
+
+/* status */
+.ok {
+    color: #22c55e;
+}
+
+.error {
+    color: #ef4444;
+}
