@@ -1,122 +1,71 @@
-# 📊 Monitoring Platform Sistem
+# 🚀 DevOps Monitoring Platform
 
-## Overview
-
-Monitoring Platform Sistem is a web-based monitoring solution designed to provide real-time visibility into system performance, resource utilization, and infrastructure health. The platform collects and displays critical metrics such as CPU usage, memory consumption, disk utilization, and network activity through an interactive dashboard.
-
-The goal of this project is to help administrators and engineers monitor system status efficiently, identify potential issues early, and improve overall operational reliability.
+A Linux-based monitoring platform built using Bash Script, Crontab, Nginx, Docker, Grafana, and Prometheus. This project automates service monitoring, logging, and self-healing processes while providing real-time system visualization through dashboards.
 
 ---
 
-## Features
+## 📌 Overview
 
-### Real-Time Monitoring
+The DevOps Monitoring Platform is designed to monitor critical Linux services automatically. The system checks service status, records logs, performs automatic recovery when a service fails, and visualizes system performance using Grafana dashboards.
 
-* Monitor CPU utilization
-* Monitor memory usage
-* Monitor disk usage
-* Monitor network traffic
-* Display system status in real time
-
-### Dashboard Visualization
-
-* Interactive dashboard
-* Resource usage charts
-* System health overview
-* Historical performance tracking
-
-### Alert Management
-
-* Threshold-based alerts
-* Resource utilization warnings
-* System health notifications
-
-### User Interface
-
-* Responsive design
-* Modern dashboard layout
-* Easy-to-understand visualizations
-* Cross-device compatibility
+This project was developed as part of a Linux and DevOps learning journey, focusing on automation, monitoring, and service management.
 
 ---
 
-## System Architecture
+## ✨ Features
 
-The platform follows a centralized monitoring architecture where monitoring agents collect system metrics and send them to a backend service for processing and storage.
-
-```text
-+---------------------+
-| Monitoring Agent    |
-+---------------------+
-           |
-           v
-+---------------------+
-| Backend API Server  |
-+---------------------+
-           |
-           v
-+---------------------+
-| Database Storage    |
-+---------------------+
-           |
-           v
-+---------------------+
-| Monitoring Dashboard|
-+---------------------+
-```
+- ✅ Automatic service monitoring
+- ✅ Self-healing (auto restart service)
+- ✅ Logging system
+- ✅ Real-time dashboard
+- ✅ Cron-based automation
+- ✅ CPU monitoring
+- ✅ Memory monitoring
+- ✅ Disk usage monitoring
+- ✅ Network monitoring
+- ✅ Grafana visualization
+- ✅ Prometheus metrics collection
 
 ---
 
-## Technology Stack
+## 🛠️ Technologies Used
 
-### Frontend
-
-* React.js
-* HTML5
-* CSS3
-* JavaScript
-
-### Backend
-
-* Node.js
-* Express.js
-
-### Database
-
-* MongoDB
-
-### Containerization
-
-* Docker
-* Docker Compose
-
-### Version Control
-
-* Git
-* GitHub
+- Linux (Ubuntu)
+- Bash Script
+- Crontab
+- Nginx
+- Docker
+- Docker Compose
+- Prometheus
+- Grafana
+- Node Exporter
+- Git & GitHub
 
 ---
 
-## Project Structure
+## 📂 Project Structure
 
-```text
-monitoring-platform-sistem/
+```bash
+devops-monitoring-system/
 │
-├── backend/
-│   ├── controllers/
-│   ├── models/
-│   ├── routes/
-│   ├── middleware/
-│   └── server.js
+├── config/
+│   └── services.conf
 │
-├── frontend/
-│   ├── public/
-│   ├── src/
-│   └── package.json
+├── scripts/
+│   ├── monitor.sh
+│   └── utils.sh
 │
-├── docker/
+├── logs/
+│   ├── system.log
+│   └── error.log
 │
-├── screenshots/
+├── dashboard/
+│   ├── index.html
+│   ├── style.css
+│   └── script.js
+│
+├── prometheus/
+│   └── prometheus.yml
 │
 ├── docker-compose.yml
 │
@@ -125,191 +74,197 @@ monitoring-platform-sistem/
 
 ---
 
-## Installation
+## ⚙️ How It Works
 
-### 1. Clone Repository
+### 1. Service Monitoring
+
+The monitoring script continuously checks configured services such as:
+
+- Nginx
+- Docker
+
+### 2. Logging
+
+All monitoring activities are stored in:
+
+```bash
+logs/system.log
+```
+
+Errors are stored in:
+
+```bash
+logs/error.log
+```
+
+### 3. Self-Healing
+
+If a service stops unexpectedly:
+
+- System detects failure
+- Logs the error
+- Automatically restarts the service
+
+### 4. Automation
+
+The monitoring script is executed automatically using Crontab.
+
+Example:
+
+```bash
+*/1 * * * * /home/handika/devops-monitoring-system/scripts/monitor.sh
+```
+
+This runs every minute.
+
+### 5. Dashboard
+
+Monitoring results are displayed through:
+
+```bash
+http://localhost:8080/dashboard
+```
+
+Dashboard displays:
+
+- Service Status
+- System Information
+- Logs
+- Last Update
+
+### 6. Grafana Monitoring
+
+Grafana provides advanced visualization for:
+
+- CPU Usage
+- Memory Usage
+- Disk Usage
+- Network Traffic
+- Uptime
+
+---
+
+## 🚀 Installation
+
+### Clone Repository
 
 ```bash
 git clone https://github.com/handika-nainggolan/monitoring-platform-sistem.git
 cd monitoring-platform-sistem
 ```
 
----
-
-### 2. Install Backend Dependencies
+### Give Execute Permission
 
 ```bash
-cd backend
-npm install
+chmod +x scripts/*.sh
 ```
 
----
-
-### 3. Install Frontend Dependencies
+### Run Monitoring Script
 
 ```bash
-cd ../frontend
-npm install
+./scripts/monitor.sh
 ```
 
----
-
-### 4. Configure Environment Variables
-
-Create a `.env` file in the backend directory.
-
-```env
-PORT=5000
-MONGODB_URI=mongodb://localhost:27017/monitoringdb
-JWT_SECRET=your_secret_key
-```
-
----
-
-### 5. Run Backend
+### Start Dashboard
 
 ```bash
-cd backend
-npm start
+cd dashboard
+python3 -m http.server 8080
+```
+
+Open browser:
+
+```bash
+http://localhost:8080
 ```
 
 ---
 
-### 6. Run Frontend
+## 📊 Grafana Dashboard
+
+The project integrates:
+
+- Prometheus
+- Node Exporter
+- Grafana
+
+Grafana provides real-time monitoring and performance visualization.
+
+Example metrics:
+
+- CPU Usage
+- Memory Usage
+- Disk Usage
+- Network Traffic
+- System Uptime
+
+---
+
+## 🧪 Testing
+
+### Stop Nginx
 
 ```bash
-cd frontend
-npm start
+sudo systemctl stop nginx
 ```
 
-The application will be available at:
+### Run Monitoring Script
+
+```bash
+./scripts/monitor.sh
+```
+
+Expected Result:
 
 ```text
-Frontend: http://localhost:3000
-Backend : http://localhost:5000
+ERROR: nginx is down! Restarting...
 ```
 
----
-
-## Docker Deployment
-
-Build and start all services:
-
-```bash
-docker-compose up --build
-```
-
-Run in detached mode:
-
-```bash
-docker-compose up -d
-```
-
-Stop services:
-
-```bash
-docker-compose down
-```
+The system automatically restarts Nginx and records the activity in the logs.
 
 ---
 
-## Dashboard Preview
+## 🎯 Learning Objectives
 
-Add screenshots of your monitoring dashboard inside the screenshots folder.
+Through this project, I learned:
 
-Example:
-
-```text
-screenshots/
-├── dashboard-overview.png
-├── cpu-monitoring.png
-├── memory-monitoring.png
-└── network-monitoring.png
-```
-
----
-
-## Key Functionalities
-
-### System Monitoring
-
-* Real-time metric collection
-* Resource usage tracking
-* Infrastructure health monitoring
-
-### Data Management
-
-* Store historical monitoring data
-* Retrieve performance statistics
-* Generate monitoring reports
-
-### Alert System
-
-* Resource threshold detection
-* Warning notifications
-* System status updates
+- Linux Service Management
+- Bash Scripting
+- Process Monitoring
+- Crontab Automation
+- Logging System
+- Docker Fundamentals
+- Grafana & Prometheus Monitoring
+- DevOps Automation Concepts
 
 ---
 
-## Use Cases
+## 📸 Screenshots
 
-* Server monitoring
-* Infrastructure monitoring
-* Performance analysis
-* Resource utilization tracking
-* Data center management
-* Cloud resource monitoring
-* IT operations monitoring
+### Dashboard
 
----
+Add dashboard screenshot here.
 
-## Future Improvements
+### Grafana Monitoring
 
-Planned enhancements include:
-
-* Prometheus integration
-* Grafana dashboards
-* Kubernetes monitoring
-* Email notifications
-* WhatsApp notifications
-* Telegram alerts
-* Multi-server support
-* Role-based access control
-* Log monitoring
-* Distributed tracing
-* CI/CD integration
+Add Grafana screenshot here.
 
 ---
 
-## Learning Outcomes
+## 👨‍💻 Author
 
-Through this project, the following concepts were explored:
+**Handika Pratama Nainggolan**
 
-* System monitoring principles
-* Backend API development
-* Database integration
-* Docker containerization
-* Dashboard development
-* Infrastructure observability
-* DevOps practices
-* Performance monitoring
+- GitHub: https://github.com/handika-nainggolan
+- Email: handikanainggolan24@gmail.com
 
 ---
 
-## Author
+## ⭐ Future Improvements
 
-### Handika Pratama Nainggolan
-
-D3 Teknologi Komputer – Institut Teknologi Del
-
-GitHub:
-https://github.com/handika-nainggolan
-
-Email:
-[handikanainggolan24@gmail.com](mailto:handikanainggolan24@gmail.com)
-
----
-
-
-
-Feel free to use, modify, and distribute this project for educational and personal purposes.
+- Email Notification
+- Telegram Alert
+- Web API Integration
+- Multi-Service Monitoring
+- Docker Container Monitoring
+- Kubernetes Integration
