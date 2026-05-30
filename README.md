@@ -1,4 +1,4 @@
-# 🚀 DevOps Monitoring Platform
+# 🚀 Monitoring Platform
 
 A Linux-based monitoring platform built using Bash Script, Crontab, Nginx, Docker, Grafana, and Prometheus. This project automates service monitoring, logging, and self-healing processes while providing real-time system visualization through dashboards.
 
